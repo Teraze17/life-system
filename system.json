@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "專注閱讀系統",
+    "isActive": true,
+    "isEditing": false,
+    "fields": [
+      {
+        "id": "f1",
+        "label": "目標 (Outcome)",
+        "value": "每週讀完一本書",
+        "icon": "🎯"
+      },
+      {
+        "id": "f2",
+        "label": "行為 (Process)",
+        "value": "每晚 9 點把手機鎖在抽屜，閱讀 60 分鐘",
+        "icon": "⚙️"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "晨間喚醒系統",
+    "isActive": false,
+    "isEditing": false,
+    "fields": [
+      {
+        "id": "f1",
+        "label": "目標 (Outcome)",
+        "value": "7:00 前起床",
+        "icon": "⏰"
+      },
+      {
+        "id": "f2",
+        "label": "行為 (Process)",
+        "value": "鬧鐘放浴室，喝一杯溫水",
+        "icon": "💧"
+      }
+    ]
+  }
+]
