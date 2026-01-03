@@ -8,19 +8,19 @@
       {
         "id": "f1",
         "label": "目標 (Outcome)",
-        "value": "<火車>\n1. Nico's Weg\n2. 看書\n3. 整理手機中的照片 (尤其是德文)\n4. 整理在 Social Medial 看到的 Feeding & Thinking",
+        "value": "<火車>\n1. Nico's Weg\n2. 看書\n3. 整理手機中的照片 (尤其是德文)\n4. 整理在 Social Medial 看到的 Feeding & Thinking\n\n<公車>\n1. 握力器",
         "icon": "🚩"
       },
       {
         "id": "f2",
         "label": "行為 (Process)",
-        "value": "每晚 9 點把手機鎖在抽屜，閱讀 60 分鐘",
+        "value": "上車後的前三分鐘，深呼吸，放輕鬆，做切換。\n現在不是產出時間，是切換時間。\n不判斷自己今天狀態好不好。\n",
         "icon": "🛬"
       },
       {
         "id": "f1767457584711",
         "label": "Trigger",
-        "value": "",
+        "value": "如果這個世界這麼容易傷害溫柔的人，那我至少要成為一個有能力、站得住、能承擔的人。",
         "icon": "🚨"
       }
     ]
