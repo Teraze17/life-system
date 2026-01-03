@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #050505;
+  --panel-color: rgba(0, 20, 20, 0.8);
+  --primary-neon: #0ff;      /* 青色 */
+  --secondary-neon: #f0f;    /* 洋紅 */
+  --text-color: #e0e0e0;
+  --font-stack: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-stack);
+}
+
+@layer components {
+  /* 修正：同時設定兩種按鈕，避免使用 @apply 導致報錯 */
+  .cyber-btn,
+  .cyber-btn-sm {
+    background-color: transparent;
+    border: 1px solid var(--primary-neon);
+    color: var(--primary-neon);
+    font-family: var(--font-stack);
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  /* 大按鈕專屬樣式 */
+  .cyber-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .cyber-btn:hover {
+    background-color: var(--primary-neon);
+    color: #000;
+    box-shadow: 0 0 20px var(--primary-neon);
+  }
+
+  /* 小按鈕 (Edit/Save) 專屬樣式 */
+  .cyber-btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-color: #666;
+    color: #888;
+  }
+  
+  .cyber-btn-sm:hover {
+    background-color: #e0e0e0;
+    color: #000;
+    box-shadow: 0 0 10px #fff;
+    border-color: #fff;
+  }
+
+  /* Toggle 開關 (修正顏色為青色) */
+  .cyber-toggle {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+
+  .cyber-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .cyber-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111;
+    border: 1px solid #444;
+    transition: .2s;
+  }
+
+  .cyber-slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 3px;
+    bottom: 3px;
+    background-color: #444;
+    transition: .2s;
+  }
+
+  /* 開啟狀態：邊框和滑塊都變青色 */
+  input:checked + .cyber-slider {
+    border-color: var(--primary-neon);
+    box-shadow: 0 0 8px var(--primary-neon);
+  }
+
+  input:checked + .cyber-slider:before {
+    transform: translateX(20px);
+    background-color: var(--primary-neon);
+    box-shadow: 0 0 5px var(--primary-neon);
+  }
+
+  /* 面板與卡片 */
+  .cyber-panel {
+    background: var(--panel-color);
+    border: 1px solid var(--primary-neon);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cyber-card {
+    background: rgba(0, 10, 10, 0.6);
+    border: 1px solid #333;
+    padding: 20px;
+    transition: all 0.3s ease;
+    margin-bottom: 1rem;
+  }
+
+  .cyber-card.active {
+    border-color: var(--secondary-neon);
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.3);
+    background: rgba(20, 0, 20, 0.6);
+  }
+
+  .cyber-input {
+    background: rgba(0,0,0,0.8);
+    border: 1px solid var(--secondary-neon);
+    color: #fff;
+    padding: 10px;
+    font-family: var(--font-stack);
+    outline: none;
+    width: 100%;
+  }
+
+  .cyber-input:focus {
+    box-shadow: 0 0 15px var(--secondary-neon);
+    border-color: #fff;
+  }
+
+  .cyber-title {
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px var(--primary-neon);
+    letter-spacing: 2px;
+  }
+}
