@@ -1,21 +1,27 @@
 [
   {
     "id": 1,
-    "name": "專注閱讀系統",
+    "name": "通勤系統",
     "isActive": true,
     "isEditing": false,
     "fields": [
       {
         "id": "f1",
         "label": "目標 (Outcome)",
-        "value": "每週讀完一本書",
-        "icon": "🎯"
+        "value": "<火車>\n1. Nico's Weg\n2. 看書\n3. 整理手機中的照片 (尤其是德文)\n4. 整理在 Social Medial 看到的 Feeding & Thinking",
+        "icon": "🚩"
       },
       {
         "id": "f2",
         "label": "行為 (Process)",
         "value": "每晚 9 點把手機鎖在抽屜，閱讀 60 分鐘",
-        "icon": "⚙️"
+        "icon": "🛬"
+      },
+      {
+        "id": "f1767457584711",
+        "label": "Trigger",
+        "value": "",
+        "icon": "🚨"
       }
     ]
   },
