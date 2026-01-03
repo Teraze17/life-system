@@ -24,25 +24,5 @@
         "icon": "🚨"
       }
     ]
-  },
-  {
-    "id": 2,
-    "name": "晨間喚醒系統",
-    "isActive": false,
-    "isEditing": false,
-    "fields": [
-      {
-        "id": "f1",
-        "label": "目標 (Outcome)",
-        "value": "7:00 前起床",
-        "icon": "⏰"
-      },
-      {
-        "id": "f2",
-        "label": "行為 (Process)",
-        "value": "鬧鐘放浴室，喝一杯溫水",
-        "icon": "💧"
-      }
-    ]
   }
 ]
