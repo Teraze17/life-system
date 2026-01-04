@@ -39,14 +39,14 @@
     "fields": [
       {
         "id": "f1",
-        "label": "Outcome",
-        "value": "1. 突然在某一件大事結束後，空虛感的襲來。",
+        "label": "Sign",
+        "value": "- 突然在某一件大事結束後，空虛感的襲來。\n- 心很累，什麼事都無法有系統地做。",
         "icon": "🚩"
       },
       {
         "id": "f2",
         "label": "Behavior",
-        "value": "<正確的休息>\n1. 睡覺\n2. 走路散步",
+        "value": "<正確的休息>\n1. 睡覺\n2. 走路散步\n\n<心態>\n- 告訴自己，現在開始，認真地休息一下，讓自己的心休息一下",
         "icon": "🛬"
       },
       {
@@ -80,7 +80,7 @@
   {
     "id": 1,
     "name": "通勤系統",
-    "isActive": true,
+    "isActive": false,
     "isEditing": false,
     "fields": [
       {
