@@ -40,13 +40,13 @@
       {
         "id": "f1",
         "label": "Outcome",
-        "value": "突然在某一件大事結束後，空虛感的襲來。",
+        "value": "1. 突然在某一件大事結束後，空虛感的襲來。",
         "icon": "🚩"
       },
       {
         "id": "f2",
-        "label": "Process",
-        "value": "",
+        "label": "Behavior",
+        "value": "<正確的休息>\n1. 睡覺\n2. 走路散步",
         "icon": "🛬"
       },
       {
