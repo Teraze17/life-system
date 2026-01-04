@@ -2,7 +2,7 @@
   {
     "id": 1767500704436,
     "name": "身材管理/運動系統",
-    "isActive": false,
+    "isActive": true,
     "isEditing": false,
     "fields": [
       {
@@ -34,13 +34,13 @@
   {
     "id": 1767497518642,
     "name": "休息回復系統",
-    "isActive": false,
+    "isActive": true,
     "isEditing": false,
     "fields": [
       {
         "id": "f1",
         "label": "Outcome",
-        "value": "突然在",
+        "value": "突然在某一件大事結束後，空虛感的襲來。",
         "icon": "🚩"
       },
       {
