@@ -24,5 +24,31 @@
         "icon": "🚨"
       }
     ]
+  },
+  {
+    "id": 1767497518642,
+    "name": "休息回復系統",
+    "isActive": false,
+    "isEditing": false,
+    "fields": [
+      {
+        "id": "f1",
+        "label": "目標 (Outcome)",
+        "value": "",
+        "icon": "🚩"
+      },
+      {
+        "id": "f2",
+        "label": "行為 (Process)",
+        "value": "",
+        "icon": "🛬"
+      },
+      {
+        "id": "f1767497533543",
+        "label": "新欄位",
+        "value": "",
+        "icon": "🚨"
+      }
+    ]
   }
 ]
