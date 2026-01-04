@@ -1,8 +1,40 @@
 [
   {
+    "id": 1767500704436,
+    "name": "身材管理/運動系統",
+    "isActive": false,
+    "isEditing": false,
+    "fields": [
+      {
+        "id": "f1",
+        "label": "目標 (Outcome)",
+        "value": "1. 連續伏地挺身 50 下\n2. 平板支撐 3 分鐘\n\n",
+        "icon": "🚩"
+      },
+      {
+        "id": "f2",
+        "label": "行為 (Process) v1",
+        "value": "- 跪姿伏地挺身 10*4 組\n- 鑽石伏地挺身 10*4 組\n=== 能輕鬆做 20 個後，解鎖標準伏地挺身 ===\n- 標準伏地挺身 30*3 組\n- 鑽石伏地挺身 12*4 組\n\n【大臂】反手伏地挺身 12*4 組\n【肩寬腰細】折刀伏地挺身 12*4 組\n\n\n",
+        "icon": "🛬"
+      },
+      {
+        "id": "f1767503128468",
+        "label": "行為 (Process) v2",
+        "value": "- 平板支撐，新手 15-20 秒開始，做 3-4 組，組間休息 30 秒\n- 摸膝卷腹練上腹 15*4 組\n- 提膝抬腿練下腹 20*4 組\n- 仰臥觸踝練側腹 20*4 組",
+        "icon": "🛬"
+      },
+      {
+        "id": "f1767503232406",
+        "label": "Trigger",
+        "value": "一個男人走進房間時的身材，代表他的能力。\n能堅持一個月，脫離新手期；\n能堅持三個月，超越大部分人；\n能堅持半年，你將變得堅不可摧。",
+        "icon": "🚨"
+      }
+    ]
+  },
+  {
     "id": 1767497518642,
     "name": "休息回復系統",
-    "isActive": true,
+    "isActive": false,
     "isEditing": false,
     "fields": [
       {
@@ -26,9 +58,29 @@
     ]
   },
   {
+    "id": 1767500730502,
+    "name": "拒絕戀愛腦系統",
+    "isActive": false,
+    "isEditing": false,
+    "fields": [
+      {
+        "id": "f1",
+        "label": "目標 (Outcome)",
+        "value": "",
+        "icon": "🎯"
+      },
+      {
+        "id": "f2",
+        "label": "行為 (Process)",
+        "value": "",
+        "icon": "⚙️"
+      }
+    ]
+  },
+  {
     "id": 1,
     "name": "通勤系統",
-    "isActive": false,
+    "isActive": true,
     "isEditing": false,
     "fields": [
       {
