@@ -40,7 +40,7 @@
   {
     "id": 1767497518642,
     "name": "休息回復系統",
-    "isActive": true,
+    "isActive": false,
     "isEditing": false,
     "fields": [
       {
@@ -84,7 +84,7 @@
       {
         "id": "f1767660474446",
         "label": "Trigger",
-        "value": "1. 自己一個人，內心過得比較舒服",
+        "value": "1. 自己一個人，內心(內在小孩)過得比較舒服",
         "icon": "🚨"
       }
     ]
