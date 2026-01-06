@@ -38,6 +38,32 @@
     ]
   },
   {
+    "id": 1767668509869,
+    "name": "專注閱讀系統",
+    "isActive": false,
+    "isEditing": false,
+    "fields": [
+      {
+        "id": "f1",
+        "label": "Outcome",
+        "value": "",
+        "icon": "🚩"
+      },
+      {
+        "id": "f2",
+        "label": "Process",
+        "value": "",
+        "icon": "🛬"
+      },
+      {
+        "id": "f1767668532908",
+        "label": " Trigger",
+        "value": "",
+        "icon": "🚨"
+      }
+    ]
+  },
+  {
     "id": 1767497518642,
     "name": "休息回復系統",
     "isActive": false,
@@ -111,32 +137,6 @@
         "id": "f1767457584711",
         "label": "Trigger",
         "value": "如果這個世界這麼容易傷害溫柔的人，那我至少要成為一個有能力、站得住、能承擔的人。",
-        "icon": "🚨"
-      }
-    ]
-  },
-  {
-    "id": 1767668509869,
-    "name": "專注閱讀系統",
-    "isActive": false,
-    "isEditing": false,
-    "fields": [
-      {
-        "id": "f1",
-        "label": "Outcome",
-        "value": "",
-        "icon": "🚩"
-      },
-      {
-        "id": "f2",
-        "label": "Process",
-        "value": "",
-        "icon": "🛬"
-      },
-      {
-        "id": "f1767668532908",
-        "label": " Trigger",
-        "value": "",
         "icon": "🚨"
       }
     ]
