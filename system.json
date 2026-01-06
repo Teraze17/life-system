@@ -90,32 +90,6 @@
     ]
   },
   {
-    "id": 1767500730502,
-    "name": "拒絕戀愛腦系統",
-    "isActive": false,
-    "isEditing": false,
-    "fields": [
-      {
-        "id": "f1",
-        "label": "目標 (Outcome)",
-        "value": "",
-        "icon": "🎯"
-      },
-      {
-        "id": "f2",
-        "label": "行為 (Process)",
-        "value": "",
-        "icon": "⚙️"
-      },
-      {
-        "id": "f1767660474446",
-        "label": "Trigger",
-        "value": "1. 自己一個人，內心(內在小孩)過得比較舒服",
-        "icon": "🚨"
-      }
-    ]
-  },
-  {
     "id": 1,
     "name": "通勤系統",
     "isActive": false,
