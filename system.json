@@ -114,5 +114,45 @@
         "icon": "🚨"
       }
     ]
+  },
+  {
+    "id": 1768013048023,
+    "name": "晨間起床系統",
+    "isActive": false,
+    "isEditing": false,
+    "fields": [
+      {
+        "id": "f1",
+        "label": "目標 (Outcome)",
+        "value": "",
+        "icon": "🎯"
+      },
+      {
+        "id": "f2",
+        "label": "行為 (Process)",
+        "value": "",
+        "icon": "⚙️"
+      }
+    ]
+  },
+  {
+    "id": 1768013063847,
+    "name": "防止過度思考系統",
+    "isActive": false,
+    "isEditing": false,
+    "fields": [
+      {
+        "id": "f1",
+        "label": "目標 (Outcome)",
+        "value": "",
+        "icon": "🎯"
+      },
+      {
+        "id": "f2",
+        "label": "行為 (Process)",
+        "value": "",
+        "icon": "⚙️"
+      }
+    ]
   }
 ]
