@@ -40,25 +40,25 @@
   {
     "id": 1767668509869,
     "name": "專注閱讀系統",
-    "isActive": false,
+    "isActive": true,
     "isEditing": false,
     "fields": [
       {
         "id": "f1",
         "label": "Outcome",
-        "value": "",
+        "value": "將理查費曼和川普的英文書讀完",
         "icon": "🚩"
       },
       {
         "id": "f2",
         "label": "Process",
-        "value": "",
+        "value": "1. 每天讀五頁\n2. 先讀理查費曼\n3. 再讀川普",
         "icon": "🛬"
       },
       {
         "id": "f1767668532908",
         "label": " Trigger",
-        "value": "",
+        "value": "1. 可以記錄在 growth-tracker 中",
         "icon": "🚨"
       }
     ]
